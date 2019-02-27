@@ -1,0 +1,56 @@
+
+
+.container{
+    display: flex;
+    font-family: Arial;
+    color: antiquewhite;
+}
+
+
+
+.relax, .stream{
+    display: flex;
+    width: 420px;
+    height: 240px;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.relax h2, .stream h2{
+    margin-left: 20px;
+}
+.desert h2{
+    justify-content: center;
+    font-size: 50px;
+}
+
+.stream{
+    background-image: url('images/stream420x240.jpg'); 
+}
+.desert{
+    background-image: url('images/desert780x477.jpg');
+    display: flex;
+    width: 780px;
+    height: 480px;
+    justify-content: center;
+    align-items: flex-end;
+} 
+.relax{
+    background-image: url('images/relax420x237.jpg');
+}
+
+#line{
+    border-bottom:3px solid orange;
+    margin-bottom: 2px;
+}
+
+nav{
+    display: flex;
+    
+   
+}
+
+nav div{
+    font-family: 'Open Sans', sans-serif;
+    color: white
+}
