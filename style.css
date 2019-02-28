@@ -46,11 +46,10 @@
 
 nav{
     display: flex;
-    
-   
-}
+    background-color:#333a35; 
+    }
 
-nav div{
+li{
     font-family: 'Open Sans', sans-serif;
-    color: white
+    color: white;   
 }
