@@ -1,5 +1,7 @@
 
-
+*{
+    font-family: 'Muli', sans-serif;
+}
 .container{
     display: flex;
     font-family: Arial;
@@ -85,5 +87,11 @@ i{
 .strip{
     display: flex;
     padding: 0px;
-    margin: 0p
+    margin: 0px;
 }
+
+.recipes, .tent, .backpack, .candles{
+    margin:0 2px;
+    padding-top: 20px;
+}
+
